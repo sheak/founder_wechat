@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>方正证券小方</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <meta content="email=no" name="format-detection">
+        <!-- Custom styles for this template -->
+        <link href="css/f_edm.css" rel="stylesheet">
+        <!-- jquery -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/f_edm.js"></script>
+    </head>
+    <body>
+
+    <div class="f_edm_box">
+        
+        <!--  -->
+        <div class="f_edm_item_1">
+            <img src="imgs/f_edm_1.png" alt="">
+            <img class="f_edm_item_2 jump" src="imgs/f_edm_2.png" alt="">
+        </div>
+
+        <!--  -->
+        <div class="f_edm_c_list">
+            <dl class="clearfix">
+                <dt>
+                    <img src="imgs/f_edm_c_logo_1.png" alt="">
+                </dt>
+                <dd>
+                    <p>E袋洗</p>
+                    <span>100元红包</span>
+                    <a href="http://www.baidu.com/">点击领取</a>
+                </dd>
+            </dl>
+            <dl class="clearfix">
+                <dt>
+                    <img src="imgs/f_edm_c_logo_2.png" alt="">
+                </dt>
+                <dd>
+                    <p>百度外卖</p>
+                    <span>15元红包</span>
+                    <a class="overed" href="javascript:;">已领光</a>
+                </dd>
+            </dl>
+            <dl class="clearfix">
+                <dt>
+                    <img src="imgs/f_edm_c_logo_3.png" alt="">
+                </dt>
+                <dd>
+                    <p>去哪儿</p>
+                    <span>550元红包</span>
+                    <a href="javascript:;">点击领取</a>
+                </dd>
+            </dl>
+            <dl class="clearfix">
+                <dt>
+                    <img src="imgs/f_edm_c_logo_4.png" alt="">
+                </dt>
+                <dd>
+                    <p>嘀嘀出行</p>
+                    <span>100元红包</span>
+                    <a href="javascript:;">点击领取</a>
+                </dd>
+            </dl>
+            <dl class="clearfix">
+                <dt>
+                    <img src="imgs/f_edm_c_logo_5.png" alt="">
+                </dt>
+                <dd>
+                    <p>方正证券</p>
+                    <span>500元红包</span>
+                    <a href="javascript:;">点击领取</a>
+                </dd>
+            </dl>
+        </div>
+        
+        <!--  -->
+        <div class="f_edm_notice">
+            <h4>活动说明</h4>
+            <dl class="clearfix">
+                <dt>1/</dt>
+                <dd>方正证券红包领取如有疑问，请拨打官方客服电话95571咨询。其他红包仅限在对应商家的平台使用，如有疑问请联系对应商家。</dd>
+            </dl>
+            <dl class="clearfix">
+                <dt>2/</dt>
+                <dd>部分红包使用存在有效期，请根据对应页面上的使用规则及时使用。</dd>
+            </dl>
+            <dl class="clearfix">
+                <dt>3/</dt>
+                <dd>活动期间同一账号可领取多家红包，也可分享召唤朋友来领取。</dd>
+            </dl>
+            <dl class="clearfix">
+                <dt>4/</dt>
+                <dd>本次活动解释权归方正证券所有。</dd>
+            </dl>
+        </div>
+
+        <div id="f_edm_share_btn">
+            <a href="javascript:;">分享给朋友一起领取</a>
+        </div>
+    </div>
+
+    </body>
+</html>
+<script src="js/jweixin-1.0.0.js"></script>
+<script>
+    /*
+   * 注意：
+   * 1. 所有的JS接口只能在公众号绑定的域名下调用，公众号开发者需要先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。
+   * 2. 如果发现在 Android 不能分享自定义内容，请到官网下载最新的包覆盖安装，Android 自定义分享接口需升级至 6.0.2.58 版本及以上。
+   * 3. 常见问题及完整 JS-SDK 文档地址：http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
+   *
+   * 开发中遇到问题详见文档“附录5-常见错误及解决办法”解决，如仍未能解决可通过以下渠道反馈：
+   * 邮箱地址：weixin-open@qq.com
+   * 邮件主题：【微信JS-SDK反馈】具体问题
+   * 邮件内容说明：用简明的语言描述问题所在，并交代清楚遇到该问题的场景，可附上截屏图片，微信团队会尽快处理你的反馈。
+   */
+  wx.config({
+      debug: true,
+      appId: 'wxf8b4f85f3a794e77',
+      timestamp: 1442288091,
+      nonceStr: '4cnIIoLwLjbDp5UL',
+      signature: '839ea025d8bad56e77b42b35f017624d8dab42c6',
+      jsApiList: [
+        'onMenuShareTimeline',
+        'onMenuShareQQ',
+        'onMenuShareWeibo',
+        'onMenuShareQZone'
+      ]
+  });
+</script>
+<script src="js/uploadWX.js"></script>
